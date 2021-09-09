@@ -1,0 +1,391 @@
+thead > tr > th {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+tbody > tr > td {
+    font-size: 12px;
+}
+
+.icon-table { text-decoration: none; }
+
+.inactivo {
+	color: #ff1616;
+}
+
+.activo {
+	color: #14f114;
+}
+
+.casi, .alerta {
+	color: #ebc313ee;
+}
+
+.dead, .deads {
+    color: #00d4ff;
+}
+
+.card-header, .modal-header, .modal-footer {
+    background: #62ce62;
+    color: #fff;
+    font-weight: 800;
+}
+
+.modal-title, .navbar-brand {
+    font-weight: 600;
+}
+
+.activo , .inactivo ,.alerta {
+    font-weight: bold;
+}
+
+body {
+    background: rgb(33,33,36);
+    background: linear-gradient(249deg, rgba(33,33,36,0.835171568627451) 0%, rgba(130,142,133,1) 40%, rgba(82,94,97,1) 100%);
+    min-height: 100vh;
+}
+
+.gren-background, .btn-success, .card-header, .modal-header, .modal-footer {
+    background: rgb(78,155,17);
+    background: linear-gradient(249deg, rgba(78,155,17,0.969625350140056) 0%, rgba(64,205,23,0.9612219887955182) 40%, rgba(64,182,45,1) 100%);
+}
+
+.card-people {
+    background: rgb(82,76,76);
+    background: radial-gradient(circle, rgba(82,76,76,1) 0%, rgba(62,73,62,1) 40%, rgba(88,94,87,0.7931547619047619) 100%);
+    color: #FFF;
+}
+
+.font-medium {
+    font-weight: 500;
+    color:#fff !important;
+}
+
+.b_activo {
+    background: rgb(103,187,65);
+    background: linear-gradient(249deg, rgba(103,187,65,1) 0%, rgba(44,222,44,1) 40%, rgba(43,218,14,0.7931547619047619) 100%);
+}
+
+.b_alerta {
+    background: rgb(210,190,29);
+    background: linear-gradient(249deg, rgba(210,190,29,1) 0%, rgba(228,195,21,1) 40%, rgba(218,199,14,0.7931547619047619) 100%);
+}
+
+.b_inactivo {
+    background: rgb(228,66,66);
+    background: linear-gradient(249deg, rgba(228,66,66,1) 0%, rgba(228,21,21,1) 40%, rgba(218,58,14,0.7931547619047619) 100%);
+}
+
+.b_deads {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,49,121,0.8743872549019608) 35%, rgba(0,212,255,1) 100%);
+}
+
+.b_activo, .b_activo, .b_alerta, .b_deads {
+    border-radius: 5px;
+}
+
+.link {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.card-header-plan {
+	background: rgb(82,76,76) !important;
+    background: radial-gradient(circle, rgba(82,76,76,1) 0%, rgba(62,73,62,1) 40%, rgba(88,94,87,0.7931547619047619) 100%) !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.icon-footer {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.img-user {
+    height: 150px;
+    width: 100%;
+}
+
+.col-form-label, .form-control,
+.table thead th,
+table > tbody > tr > td, th, td, .form-check-label {
+    font-size: 12px;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.container-image {
+    height: 310px;
+}
+
+.card-plan {
+    height: 174px;
+}
+
+@media(width: 320px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 350px !important;
+    }
+
+    .card-plan {
+        height: 370px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 360px) {
+    .container-image {
+        height: auto;
+        width: 300px;
+    }
+
+    .img-user {
+        height: 380px !important;
+    }
+
+    .card-plan {
+        height: 400px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 375px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 340px !important;
+    }
+
+    .card-plan {
+        height: 360px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 411px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 380px !important;
+    }
+
+    .card-plan {
+        height: 400px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 412px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 380px !important;
+    }
+
+    .card-plan {
+        height: 400px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 414px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 380px !important;
+    }
+
+    .card-plan {
+        height: 400px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 480px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 400px !important;
+    }
+
+    .card-plan {
+        height: 420px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+@media(width: 600px) {
+    .container-image {
+        height: auto;
+    }
+
+    .img-user {
+        height: 150px !important;
+    }
+
+    .card-plan {
+        height: 200px !important;
+    }
+
+    .text, .text-white {
+        font-size: 15px;
+    }
+
+    .icon-table {
+        font-size: 20px;
+    }
+}
+
+.img-services-2 {
+    width: 170px;
+    height: 172px;
+}
+
+.img-preview {
+    overflow: hidden;
+    width: 320px;
+    height: 260px;
+}
+.img-container,
+.img-preview {
+    background-color: #f7f7f7;
+    text-align: center;
+    width: 100%;
+}
+
+.img-container {
+    margin-bottom: 1rem;
+    max-height: 450px;
+    min-height: 200px;
+}
+
+@media (min-width: 768px) {
+    .img-container {
+        min-height: 450px;
+    }
+}
+
+.img-container > img {
+    max-width: 100%;
+}
+
+.docs-preview {
+    margin-right: -1rem;
+}
+
+.img-preview {
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    overflow: hidden;
+}
+
+.img-preview > img {
+    max-width: 100%;
+}
+
+.preview-lg {
+    height: 9rem;
+    width: 16rem;
+}
+
+.preview-md {
+    height: 4.5rem;
+    width: 8rem;
+}
+
+.preview-sm {
+    height: 2.25rem;
+    width: 4rem;
+}
+
+.preview-xs {
+    height: 1.125rem;
+    margin-right: 0;
+    width: 2rem;
+}
+
+.icons-card-footer{
+    text-align: center;
+}
+
+.container-footer {
+    height: 120px;
+}
+
+.icons-card-footer > a {
+    position: relative;
+    padding: 5px 0;
+}
